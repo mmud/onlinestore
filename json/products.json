@@ -1,0 +1,98 @@
+[
+    {
+        "id" : 1,
+        "title" : "wooden chair with some fabric",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/1/category-banner1.jpg","../images/Chairs/1/category-banner1.png","../images/Chairs/1/category-banner2.png","../images/Chairs/1/category-banner4.png"],
+        "price" : 600,
+        "cate" : "wooden"
+    },
+    {
+        "id" : 2,
+        "title" : "wooden chair with a lot of fabric",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/2/6_large.jpg","../images/Chairs/2/6_large.png","../images/Chairs/2/7_large.png","../images/Chairs/2/8_large.png"],
+        "price" : 650,
+        "cate" : "wooden"
+    },
+    {
+        "id" : 3,
+        "title" : "wooden chair with a lot of fabric",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/3/28_large.jpg","../images/Chairs/3/28_large.png","../images/Chairs/3/29_large.png","../images/Chairs/3/31_large.png"],
+        "price" : 550,
+        "cate" : "wooden"
+    },
+    {
+        "id" : 4,
+        "title" : "Full wooden chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/4/s1.jpg","../images/Chairs/4/s2.png","../images/Chairs/4/s3.png","../images/Chairs/4/s4.png"],
+        "price" : 500,
+        "cate" : "wooden"
+    },
+    {
+        "id" : 5,
+        "title" : "leather chair with some wood",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/5/category-banner4.jpg","../images/Chairs/5/category-banner4.png","../images/Chairs/5/category-banner5.png","../images/Chairs/5/category-banner44.png"],
+        "price" : 700,
+        "cate" : "leather"
+    },
+    {
+        "id" : 6,
+        "title" : "metal chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/6/30_large.jpg","../images/Chairs/6/30_large.png","../images/Chairs/6/30_large1.png","../images/Chairs/6/30_large2.png"],
+        "price" : 1000,
+        "cate" : "metal"
+    },
+    {
+        "id" : 7,
+        "title" : "metal chair with some wood",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/7/chair2.jpg","../images/Chairs/7/chair2.png","../images/Chairs/7/chair3.jpg","../images/Chairs/7/chair4.jpg"],
+        "price" : 900,
+        "cate" : "metal"
+    },
+    {
+        "id" : 8,
+        "title" : "metal chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/8/chair6.jpg","../images/Chairs/8/chair6.png","../images/Chairs/8/chair61.png","../images/Chairs/8/chair62.png"],
+        "price" : 1000,
+        "cate" : "metal"
+    },
+    {
+        "id" : 9,
+        "title" : "metal chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/9/chair1.jpg","../images/Chairs/9/chair1.png","../images/Chairs/9/chair2.png","../images/Chairs/9/chair3.png"],
+        "price" : 1050,
+        "cate" : "metal"
+    },
+    {
+        "id" : 10,
+        "title" : "wooden chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/10/chair5.jpg","../images/Chairs/10/chair5.png","../images/Chairs/10/chair6.png","../images/Chairs/10/chair7.png"],
+        "price" : 600,
+        "cate" : "wooden"
+    },
+    {
+        "id" : 11,
+        "title" : "metal chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/11/category-bann3er2.png","../images/Chairs/11/category-banne32.png","../images/Chairs/11/category-banner2.jpg","../images/Chairs/11/category-banner2.png"],
+        "price" : 900,
+        "cate" : "metal"
+    },
+    {
+        "id" : 12,
+        "title" : "Full wooden chair",
+        "describtion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla veniam similique corporis eius cupiditate officia culpa soluta suscipit numquam, commodi optio magni quas aliquam tempora ad, quae fuga neque!",
+        "imgs" : ["../images/Chairs/12/mug-the-3is-yet-to-come.png","../images/Chairs/12/mug-the-best-is-yet-to4come.png","../images/Chairs/12/mug-the-best-is-yet-to-come.jpg","../images/Chairs/12/mug-the-best-is-yet-to-come.png"],
+        "price" : 400,
+        "cate" : "wooden"
+    }
+]
