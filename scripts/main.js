@@ -59,11 +59,12 @@ trigger.forEach(element => element.addEventListener("mouseleave",handleLeave));
 
 // End Header
 // Start slider
-var slideimages = document.querySelectorAll(".wrapper .slides-container .slide-image");
-var slidescontainer = document.querySelector(".wrapper .slides-container")
-var nextbtn = document.querySelector(".wrapper .next-btn")
-var prevbtn = document.querySelector(".wrapper .prev-btn")
-var navigationdots = document.querySelector(".navigation-dots")
+var slideimages = document.querySelectorAll(".sec-s .wrapper .slides-container .slide-image");
+var slidescontainer = document.querySelector(".sec-s .wrapper .slides-container")
+var nextbtn = document.querySelector(".sec-s .wrapper .next-btn")
+var prevbtn = document.querySelector(".sec-s .wrapper .prev-btn")
+var navigationdots = document.querySelector(".sec-s .navigation-dots")
+var slidescontainerq = document.querySelector(".discount .wrapper .slides-container")
 
 var numberofimages = slideimages.length;
 var slidewidth = slideimages[0].clientWidth;
@@ -74,9 +75,11 @@ setInterval(() => {
 }, 3000);
 
 slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
-window.onresize = () =>{
+slidescontainerq.style.height = "248px";
+window.onresize = function () {
     slidewidth = slideimages[0].clientWidth;
     slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
+    slidescontainerq.style.height = "248px";
 }
 
 function init(){
@@ -131,13 +134,13 @@ function gotoslide(n){
 }
 
 function setactiveclass(){
-    var ac = document.querySelector(".slide-image.active");
+    var ac = document.querySelector(".sec-s .wrapper .slide-image.active");
     ac.classList.remove("active");
     slideimages[currentslidee].classList.add("active");
 
-    var acd = document.querySelector(".singel-dot.active");
-    var acds = document.querySelectorAll(".singel-dot");
+    var acd = document.querySelector(".sec-s .wrapper .singel-dot.active");
+    var acds = document.querySelectorAll(".sec-s .wrapper .singel-dot");
     acd.classList.remove("active");
     acds[currentslidee].classList.add("active");
 }
-// End slider
+//End slider
