@@ -144,3 +144,18 @@ function setactiveclass(){
     acds[currentslidee].classList.add("active");
 }
 //End slider
+
+//start products slider
+let productsslider = document.querySelector(".scroller");
+
+let rightbtn = document.querySelector(".products .right");
+let leftbtn = document.querySelector(".products .left");
+
+rightbtn.addEventListener("click", ()=>{
+    productsslider.scrollLeft +=900;
+})
+
+leftbtn.addEventListener("click", ()=>{
+    productsslider.scrollLeft -=900;
+})
+//end products slider
