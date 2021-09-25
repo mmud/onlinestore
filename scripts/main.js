@@ -67,15 +67,25 @@ var navigationdots = document.querySelector(".sec-s .navigation-dots")
 var slidescontainerq = document.querySelector(".discount .wrapper .slides-container")
 
 var numberofimages = slideimages.length;
-var slidewidth = slideimages[0].clientWidth;
+if (slideimages[0] != null) {
+    var slidewidth = slideimages[0].clientWidth;
+}
 var currentslidee = 0;
 
 setInterval(() => {
-    nextbtn.click();
+    if (nextbtn != null) {
+        nextbtn.click();
+    }
 }, 3000);
 
-slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
-slidescontainerq.style.height = "248px";
+if (slidescontainer != null) {
+    slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
+}
+
+if (slidescontainerq != null) {
+    slidescontainerq.style.height = "248px";
+}
+
 window.onresize = function () {
     slidewidth = slideimages[0].clientWidth;
     slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
@@ -86,7 +96,7 @@ function init(){
     slideimages.forEach((element,i) => {
         element.style.left = i *100 +"%";
     });
-    slideimages[0].classList.add("active");
+        slideimages[0].classList.add("active");
     createnewnavdots();
 }
 init();
@@ -153,9 +163,52 @@ let leftbtn = document.querySelector(".products .left");
 
 rightbtn.addEventListener("click", ()=>{
     productsslider.scrollLeft +=900;
-})
+});
 
 leftbtn.addEventListener("click", ()=>{
     productsslider.scrollLeft -=900;
-})
+});
 //end products slider
+
+//Start click products
+let prod = document.querySelectorAll(".pro-box");
+
+prod.forEach(element => {
+    element.addEventListener("click",function () {
+        let id =this.getAttribute("proid");
+        location.assign(`product/index.html#${id}`);
+    })
+});
+//End click products
+
+/*
+var test = document.getElementById("test");
+
+var bigdiv = document.createElement("div");
+bigdiv.className="pro-box";
+bigdiv.setAttribute("proid",7);
+bigdiv.setAttribute("cate","wooden");
+
+var img = document.createElement("img");
+img.setAttribute("src","images/Chairs/7/chair2.jpg");
+
+
+var p = document.createElement("p");
+var ptext = document.createTextNode("metal chair with some wood");
+p.appendChild(ptext);
+
+var h3 = document.createElement("h3");
+var h3text = document.createTextNode(`$900`);
+h3.appendChild(h3text);
+
+var smalldiv = document.createElement("div");
+var divtext = document.createTextNode(`show more details`);
+smalldiv.appendChild(divtext);
+
+bigdiv.appendChild(img);
+bigdiv.appendChild(p);
+bigdiv.appendChild(h3);
+bigdiv.appendChild(smalldiv);
+
+test.appendChild(bigdiv);
+*/
