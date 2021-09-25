@@ -80,14 +80,3 @@
         width: 100%;
     }
 }
-
-footer{
-    position: relative !important;
-    left: 0 !important;
-    width: 100% !important;
-    transform: translateX(0) !important;
-    -webkit-transform: translateX(0) !important;
-    -moz-transform: translateX(0) !important;
-    -ms-transform: translateX(0) !important;
-    -o-transform: translateX(0) !important;
-}
