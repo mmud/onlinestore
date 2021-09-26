@@ -19,7 +19,6 @@ fetch('../json/products.json')
                     title.innerHTML = element.title;
                     price.innerHTML = element.price;
                     btn.id = element.id;
-                    console.log(element.id);
                 };
                 
             });
