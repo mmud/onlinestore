@@ -76,3 +76,17 @@ fetch('../json/products.json')
             }
         })
     });
+
+    
+    function setnumcart(){
+        var numcart = document.querySelector("header .log li");
+        numcart.setAttribute("shop-count",localStorage.getItem("cart").split(",").length)
+    }
+    setnumcart();
+
+    
+function clearcart(){
+    let numcart = document.querySelector("header .log li");
+    localStorage.clear();
+    numcart.setAttribute("shop-count",0);
+}

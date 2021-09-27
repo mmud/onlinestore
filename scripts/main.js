@@ -179,6 +179,18 @@ prod.forEach(element => {
         location.assign(`product/index.html#${id}`);
     })
 });
+
+function setnumcart(){
+    let numcart = document.querySelector("header .log li");
+    numcart.setAttribute("shop-count",localStorage.getItem("cart").split(",").length)
+}
+setnumcart();
+
+function clearcart(){
+    let numcart = document.querySelector("header .log li");
+    localStorage.clear();
+    numcart.setAttribute("shop-count",0);
+}
 //End click products
 
 /*

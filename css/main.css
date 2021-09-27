@@ -351,6 +351,11 @@ header ul.nav  li  ul li a{
     top: -20px;
     opacity: 0;
 }
+
+header ul.log div{
+    position: absolute;
+    left: 0;
+}
 /* End Header */
 /* Start slider */
 .wrapper{
