@@ -21,18 +21,23 @@ fetch('../json/products.json')
             rembtns.forEach(element => {
                 var arr = localStorage.getItem("cart").split(",");
                 element.addEventListener("click",()=>{
-                    for( var i = 0; i < arr.length; i++){ 
+                    if ( localStorage.getItem("cart").split(",").length != 1) {
+                        for( var i = 0; i < arr.length; i++){ 
                     
-                        if ( arr[i] === element.id) { 
-                    
-                            arr.splice(i, 1); 
+                            if ( arr[i] === element.id) { 
+                        
+                                arr.splice(i, 1); 
+                            }
+                        
                         }
-                    
+                        localStorage.setItem("cart",arr.join(','))
+                        location.reload();
                     }
-                    localStorage.setItem("cart",arr.join(','))
-                    location.reload();
+                    else{
+                        clearcart();
+                        location.reload();
+                    }
                 })
-                
             });
 
             

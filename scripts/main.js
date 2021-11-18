@@ -92,6 +92,14 @@ window.onresize = function () {
     slidescontainerq.style.height = "248px";
 }
 
+setTimeout(() => {
+    
+slidewidth = slideimages[0].clientWidth;
+slidescontainer.style.height = `${slideimages[0].childNodes[1].height}px`;
+slidescontainerq.style.height = "248px";
+
+}, 10);
+
 function init(){
     slideimages.forEach((element,i) => {
         element.style.left = i *100 +"%";
@@ -182,7 +190,9 @@ prod.forEach(element => {
 
 function setnumcart(){
     let numcart = document.querySelector("header .log li");
-    numcart.setAttribute("shop-count",localStorage.getItem("cart").split(",").length)
+    if (localStorage.getItem("cart") != null) {
+        numcart.setAttribute("shop-count",localStorage.getItem("cart").split(",").length)
+    }
 }
 setnumcart();
 
